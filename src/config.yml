@@ -1,0 +1,46 @@
+
+#coordonnées du coffre pour ouvrir les clés
+chest:
+  - 386 64 -288
+
+welcomeMessage: false
+
+say:
+  key:
+    # nom des clé avec un message dans le chat lorsque quelqu'un la gagne
+    - vip
+
+  # message lorsque un joueur gagne une clé
+  broadcastWhenGetAKey: "[KEY] &e{player} a reçu une clé &5&l{key}&r !"
+  messageWhenPlayerHaveNoKey: "&4Tu n'as aucune clé a utiliser !"
+  # message lorsque un joueur gagne un item dans le casino
+  broadcastWhenWin: "[KEY] &e{player} a reçu {item} au &lcasino&r !"
+
+#differentes clé qui existe
+box :
+  vote:
+    #faire /jsonitem avec un item dans sa main pour avoir son json
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"STONE","amount":1}'
+    - '{"type":"DIRT","amount":32}'
+    - '{"type":"DIAMOND","amount":64}'
+  vip:
+    - '{"type":"DIAMOND_BLOCK","amount":1}'
+    - '{"type":"DRAGON_EGG","amount":1}'
+    - '{"type":"DIAMOND_BLOCK","amount":2}'
+    - '{"type":"DRAGON_EGG","amount":6}'
+    - '{"type":"DIAMOND_BLOCK","amount":5}'
+    - '{"type":"DIAMOND_BLOCK","amount":32}'
+    - '{"type":"STONE","amount":1}'
+    # ici grace au "display":true, si un joueur le gagne un message sera afficher dans le chat
+    - '{"type":"DIAMOND_BLOCK","amount":64,"display":true}'

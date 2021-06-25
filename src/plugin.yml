@@ -1,0 +1,12 @@
+name: BoxPlugin
+version: 2.0.0
+author: TrétinV3#7056
+api-version: 1.16
+main: fr.tretinv3.box.Plugin
+commands:
+  key:
+    description: Donne une clé a un joueur
+    permission: box.key.give
+  jsonitem:
+    description: transforme l'item de ta main en un json utilisatble par le plugin
+    permission: box.json
